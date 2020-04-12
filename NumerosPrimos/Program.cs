@@ -9,20 +9,25 @@ namespace NumerosPrimos
         {
             Console.WriteLine("Operações com números primos:");
             Console.WriteLine();
+            Programa();
+            Console.ReadLine();
+        }
 
+        public static void Programa()
+        {
             Console.Write("Quantos números terá o conjunto dos números naturais? ");
             int n = int.Parse(Console.ReadLine());
 
             HashSet<int> A = new HashSet<int>(); // Conjunto que vai receber os números naturais...
             HashSet<int> B = new HashSet<int>(); // Comjunto que vai receber os números primos...
-            HashSet<int> C = new HashSet<int>() {1}; // Conjunto que vai receber os números compostos. OBS: recebe {1} por padrão..
+            HashSet<int> C = new HashSet<int>() { 1 }; // Conjunto que vai receber os números compostos. OBS: recebe {1} por padrão..
 
             for (int i = 1; i <= n; i++) // Insere 'N' números no conjunto A (Conjuntos dos números naturais)...
             {
                 A.Add(i);
                 if (i > 1) // Inicia a verificação para colocar os números primos no conjunto 'B'...
                     if (NumeroEhPrimo(A, i)) // Se a função 'NumeroEhPrimo' retornar 'true', adiciona o número no conjunto 'B' dos números primos...
-                        B.Add(i); 
+                        B.Add(i);
                     else // Senão adiciona o número no conjunto 'C' dos números compostos... 
                         C.Add(i);
             }
@@ -67,7 +72,22 @@ namespace NumerosPrimos
 
             Fatoracao(B, n); // Chama a função 'Fatoracao'...
 
-            Console.ReadLine();
+            Console.WriteLine();
+            Console.Write("Deseja fazer outra operação (S/N): ");
+            char sn = char.Parse(Console.ReadLine());
+            while (sn != 'S' && sn != 's' && sn != 'N' && sn != 'n')
+            {
+                Console.WriteLine();
+                Console.Write("Inválido. Digite 'S' ou 'N': ");
+                sn = char.Parse(Console.ReadLine());
+            }
+            if (sn == 'S' || sn == 's')
+            {
+                Programa();
+            }else if (sn == 'N' || sn == 'n')
+            {
+                Console.WriteLine("Aperte uma tecla para sair do programa...");
+            }
         }
 
         public static bool NumeroEhPrimo(HashSet<int> conjunto, int numero)
