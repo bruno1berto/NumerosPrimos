@@ -1,0 +1,13 @@
+C:\Users\Leao\Google Drive\Programação\Cursos\C#\Repos\NumerosPrimos\NumerosPrimos\bin\Debug\netcoreapp3.1\NumerosPrimos.exe
+C:\Users\Leao\Google Drive\Programação\Cursos\C#\Repos\NumerosPrimos\NumerosPrimos\bin\Debug\netcoreapp3.1\NumerosPrimos.deps.json
+C:\Users\Leao\Google Drive\Programação\Cursos\C#\Repos\NumerosPrimos\NumerosPrimos\bin\Debug\netcoreapp3.1\NumerosPrimos.runtimeconfig.json
+C:\Users\Leao\Google Drive\Programação\Cursos\C#\Repos\NumerosPrimos\NumerosPrimos\bin\Debug\netcoreapp3.1\NumerosPrimos.runtimeconfig.dev.json
+C:\Users\Leao\Google Drive\Programação\Cursos\C#\Repos\NumerosPrimos\NumerosPrimos\bin\Debug\netcoreapp3.1\NumerosPrimos.dll
+C:\Users\Leao\Google Drive\Programação\Cursos\C#\Repos\NumerosPrimos\NumerosPrimos\bin\Debug\netcoreapp3.1\NumerosPrimos.pdb
+C:\Users\Leao\Google Drive\Programação\Cursos\C#\Repos\NumerosPrimos\NumerosPrimos\obj\Debug\netcoreapp3.1\NumerosPrimos.csprojAssemblyReference.cache
+C:\Users\Leao\Google Drive\Programação\Cursos\C#\Repos\NumerosPrimos\NumerosPrimos\obj\Debug\netcoreapp3.1\NumerosPrimos.csproj.CoreCompileInputs.cache
+C:\Users\Leao\Google Drive\Programação\Cursos\C#\Repos\NumerosPrimos\NumerosPrimos\obj\Debug\netcoreapp3.1\NumerosPrimos.AssemblyInfoInputs.cache
+C:\Users\Leao\Google Drive\Programação\Cursos\C#\Repos\NumerosPrimos\NumerosPrimos\obj\Debug\netcoreapp3.1\NumerosPrimos.AssemblyInfo.cs
+C:\Users\Leao\Google Drive\Programação\Cursos\C#\Repos\NumerosPrimos\NumerosPrimos\obj\Debug\netcoreapp3.1\NumerosPrimos.dll
+C:\Users\Leao\Google Drive\Programação\Cursos\C#\Repos\NumerosPrimos\NumerosPrimos\obj\Debug\netcoreapp3.1\NumerosPrimos.pdb
+C:\Users\Leao\Google Drive\Programação\Cursos\C#\Repos\NumerosPrimos\NumerosPrimos\obj\Debug\netcoreapp3.1\NumerosPrimos.genruntimeconfig.cache
